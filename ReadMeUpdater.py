@@ -7,10 +7,6 @@ contents = []
 for line in readFile:
 	contents.append(line)
 readFile.close()
-
-subprocess["ssh-agent"]
-subprocess["ssh", "-i","subp","git@github.com"]
-subprocess["bye"]
 	
 for line in contents:
 	print(line)
